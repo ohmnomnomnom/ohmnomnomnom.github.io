@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazper Garcia Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/nav-button.js"></script>
+    <link rel="icon" href="asset/logo_blue.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body oncontextmenu="return false">
+    <!-- nav bar for pc and tablet -->
+    <div class="nav">
+        <div class="nav-container">
+            <nav>
+                <!-- Image on the left -->
+                <img src="asset/logo_blue.png" alt="Logo">
+              
+                <!-- Menu on the far right -->
+                <ul>
+                  <li><a class="active" href="index.html">Home</a></li>
+                  <li><a href="pages/about.html">About</a></li>
+                  <li><a href="pages/projects.html">Projects</a></li>
+                  <li><a href="pages/certification.html">Certification</a></li>
+                  <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- nav bar for mobile -->
+    <div class="nav_mobile">
+        <div class="nav-container">
+            <nav>
+                 <!-- Image on the left -->
+                 <img src="asset/logo_blue.png" alt="Logo">              
+                <!-- Menu on the far right -->
+                <button class="openbtn" onclick="openNav()">☰</button>
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a class="active" href="index.html">Home</a>
+                  <a href="pages/about.html">About</a>
+                  <a href="pages/projects.html">Projects</a>
+                  <a href="pages/certification.html">Certification</a>
+                  <a href="pages/contact.html">Contact</a>
+                </div>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- background image for content -->
+    <div class="background-body">
+      <img style="width: 100%;" src="asset/home.png" alt="Background Image"/>
+    </div>
+    <div class="background-body-2">
+      <img style="width: 100%;" src="asset/home-2.png" alt="Background Image"/>
+    </div>
+
+    <!-- for mobile -->
+    <div class="mobile-background-body">
+      <img style="width: 100%;" src="asset/mobile-background-body.png" alt="Mobile Background Image"/>
+    </div>
+
+    <!-- Web Banner -->
+    <div class="popup-desktop">
+      <div id="imagePopup" class="popup-container">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup()">&times;</span>
+          <img src="asset/web-banner.png" alt="Web Banner">
+        </div>
+      </div>
+    </div>   
+
+    <!-- Mobile Web Banner -->
+    <div class="popup-mobile">
+      <div id="mobileimagePopup" class="mobile-popup-container">
+        <div class="mobile-popup-content">
+          <span class="close-btn" onclick="mobileclosePopup()">&times;</span>
+          <img src="asset/mobile-web-banner.png" alt="Mobile Web Banner">
+        </div>
+      </div>
+    </div>
+    
+    <!-- main for pc and tablet -->
+    <div class="container">
+        <div class="row">
+          <div class="column">
+            <h2>Jazper<br>Garcia</h2>
+            <h3>Website Developer</h3> <br>
+            <div class="download-button">
+              <a href="asset/Jazper Garcia Resume.pdf" download="Jazper Garcia Resume.pdf">
+                <button type="button">Download Resume</button>
+              </a>
+              <a href="asset/Jazper Garcia - Cover Letter.pdf" download="Jazper Garcia - Cover Letter.pdf">
+                <button type="button">Download Cover Letter</button>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <img src="asset/portrait-2-shadow.png" alt="Portrait Picture">
+          </div>
+          <div class="column">
+            <p>I am a passionate website developer currently studying at Holy Angel University, where I am honing my skills in HTML, CSS, JavaScript, and PHP to create dynamic and engaging website.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="about-me-image">
+      <img src="asset/about-me.png" alt="about me">
+    </div>
+    
+    <section class="container_aboutme_box">
+      <div class="container_aboutme">
+        <h3 class="about">About Me</h3>
+        <div class="row">
+          <div class="column">
+            <div class="about-me">
+              <h2>Jazper Garcia</h2>
+              <h3>Web Developer</h3>
+              <p>I am a web developer with experience in HTML, CSS, JavaScript, and PHP. I am looking forward working with future clients bring their ideas into reality, wether working alone or collaboratively. <br><br> If you're looking for a dedicated and skilled web developer to help you build your online presence, I would love to hear from you. Let's work together to turn your ideas into a reality.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="skills">
+              <h2>My Skills</h2> 
+                <div class="skills-container">
+                  <div class="skill-item">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 90%;"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 85%;"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 60%;"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 80%;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- main for mobile -->
+    <div class="container_mobile">
+      <div class="row">
+        <div class="column">
+          <img src="asset/portrait-2.png" alt="portrait">
+        </div>
+        <div class="column">
+          <h2>Jazper Garcia</h2>
+          <h3>Website Developer</h3> <br>
+          <p>I am a passionate website developer currently studying at Holy Angel University, where I am honing my skills in HTML, CSS, JavaScript, and PHP to create dynamic and engaging website.</p>
+          <div class="container_mobile_download-button">
+            <a href="asset/Jazper Garcia Resume.docx" download="Jazper Garcia Resume">
+              <button type="button">Download Resume</button>
+          </a>
+          <a href="asset/Jazper Garcia - Cover Letter.pdf" download="Jazper Garcia - Cover Letter.pdf">
+            <button type="button">Download Cover Letter</button>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container-mobile_aboutme_box">
+      <div class="container-mobile_aboutme">
+        <h3 class="about">About Me</h3>
+        <div class="row">
+          <div class="column">
+            <div class="about-me">
+              <h2>Jazper Garcia</h2>
+              <h3>Web Developer</h3>
+              <p>I am a web developer with experience in HTML, CSS, JavaScript, and PHP. I am looking forward working with future clients bring their ideas into reality, wether working alone or collaboratively. <br><br> If you're looking for a dedicated and skilled web developer to help you build your online presence, I would love to hear from you. Let's work together to turn your ideas into a reality.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="skills">
+              <h2>My Skills</h2> 
+                <div class="skills-container">
+                  <div class="skill-item">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 90%;"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 85%;"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 60%;"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 80%;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="testimonial-container">
+      <h1 class="title-testi"><span class="underline">Testimo</span>nials</h1>
+      <div class="testimonial-container-box">
+        <div class="card-container">
+
+          <div class="card">
+            <img src="/asset/people/athan.jpg" alt="testimonial-img">
+            <div class="card-content">
+              <h1>Athan Arciaga</h1>
+            <p>"Jazper Garcia is very professional, the way he worked with me he explained all the process and even suggested what he can use, he is excellent. Even though he's still a student, I think his skills are impressive and will lead to a successful career."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <img src="/asset/people/kyla.jpg" alt="testimonial-img">
+            <div class="card-content">
+              <h1>Kyla Rocel Zulueta</h1>
+              <p>"Jazper Garcia is really good at his craft. Upon observing his work, I can confidently say that he truly knows what he's doing and is passionate about it. His websites, in particular, are easy to navigate, informative, and creative. With all that being said, I am certain that he will be successful in his field given his knowledge, skills, and passion."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <img src="/asset/people/adel.jpg" alt="testimonial-img">
+            <div class="card-content">
+              <h1>Floradel Adel</h1>
+              <p>"Mr. Garcia did a fantastic job on creating a website. His dedication and hard work truly shine through his work. His attention to detail and creativity have resulted in an impressive online platform. Keep up the excellent work!"</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----- add more cards here ----- -->
+        
+      </div>
+    </div>
+
+    <div class="container_tagline">
+      <div class="tagline_box">
+        <!-- Logo -->
+        <div class="box">
+        <img src="asset/logo_blue.png" alt="logo">
+        </div>
+        <!-- tagline -->
+        <div class="box">
+          <h2>Turning ideas into online realities.</h2>
+          <a href="pages/contact.html"><button>Contact Me</button></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/web-banner-popup.js"></script>
+</body>
+
+<footer>
+  <div class="container-footer">
+    <div class="container-footer_box">
+      <div class="row">
+        <div class="left">
+          <ul>
+            <li><a href="https://www.facebook.com/ohmnom8" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="https://www.twitter.com/Ohmnom_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/ohmnomnom_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jazper-garcia-b436b7167/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.github.com/ExploreWithJaz" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/certification.html">Certification</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <hr class="footer-line">
+
+    <div class="copyright">
+      <p>&copy; 2023 Jazper Garcia. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</html>

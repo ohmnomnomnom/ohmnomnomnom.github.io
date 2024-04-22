@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jazper Garcia Portfolio</title>
+    <link rel="icon" href="/asset/logo_blue.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/projects.css">
+    <script type="text/javascript" src="/js/nav-button.js"></script>
+    <link rel="icon" href="asset/logo_blue.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body oncontextmenu="return false">
+    <!-- nav bar for pc and tablet -->
+    <div class="nav">
+        <div class="nav-container">
+            <nav>
+                <!-- Image on the left -->
+                <img src="/asset/logo_blue.png" alt="Logo">
+              
+                <!-- Menu on the far right -->
+                <ul>
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a class="active" href="projects.html">Projects</a></li>
+                  <li><a href="certification.html">Certification</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- nav bar for mobile -->
+    <div class="nav_mobile">
+        <div class="nav-container">
+            <nav>
+                 <!-- Image on the left -->
+                 <img src="/asset/logo_blue.png" alt="Logo">              
+                <!-- Menu on the far right -->
+                <button class="openbtn" onclick="openNav()">☰</button>
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="/index.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a class="active" href="projects.html">Projects</a>
+                  <a href="certification.html">Certification</a>
+                  <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- background image for content -->
+    <div class="background-body-2">
+      <img style="width: 100%;" src="../asset/home-2.png" alt="Background Image"/>
+    </div>
+
+    <!-- for mobile -->
+    <div class="mobile-background-body-2">
+      <img style="width: 100%;" src="../asset/mobile-background-body-2.png" alt="Mobile Background Image"/>
+    </div>
+
+    <!-- main for pc and tablet -->
+    <div class="container-project">
+      <h1><span class="underline">Proj</span>ects</h1>
+      <div class="container-project-box">
+        <div class="card">
+          <img src="/asset/mysweetspot-logo.png" alt="mysweetspot-logo">
+          <div class="container-card">
+            <h4>My Sweet Spot</h4>
+            <p>Your one-stop destination for artisanal delights at My Sweets Spot. Indulge in the world of homemade cakes, bread and snack meticulously crafted with love.</p>
+          </div>
+          <div class="card-button">
+            <a><button id="open-btn">View Website</button></a>
+          </div>
+        </div>
+        <!-- website popup window -->
+        <div class="overlay" id="overlay">
+          <div class="popup" id="popup">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <span><p style="font-weight: 600;">Website : <a style="text-decoration: none; color: #4a53d7;" href="https://mysweetsspot.com" target="_blank">https://mysweetsspot.com</a></p></span>
+            <iframe src="https://mysweetsspot.com" frameborder="0"></iframe>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="/asset/petshop-logo.png" alt="petshop-logo">
+          <div class="container-card">
+            <h4>pet-shop.com</h4>
+            <p>Welcome to Pet-Shop.com, your one-stop store for all your pet needs! Browse our wide selection of products and find everything your furry friend requires for a happy and healthy life.</p>
+          </div>
+          <div class="card-button">
+            <a><button id="open-btn-pet">View Website</button></a>
+          </div>
+        </div>
+        <!-- website popup window for pet shop -->
+        <div class="overlay" id="overlay-pet">
+          <div class="popup" id="popup-pet">
+            <span><p style="font-weight: 600;">Website : <a style="text-decoration: none; color: #4a53d7;" href="https://pet-shopp.bitbucket.io" target="_blank"">https://pet-shopp.bitbucket.io</a></p></span>
+            <span class="close-btn" id="close-btn-pet">&times;</span>
+            <iframe src="https://pet-shopp.bitbucket.io" frameborder="0"></iframe>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/asset/adoptopia-logo.png" alt="adoptopia-logo">
+          <div class="container-card">
+            <h4>Adoptopia</h4>
+            <p>Adoptopia: A place where families and furry friends find each other, fostering lasting connections through adoption. Discover your perfect companion in our loving environment.</p>
+          </div>
+          <div class="card-button">
+            <a><button id="open-btn-adoptopia">View Website</button></a>
+          </div>
+        </div>
+        <!-- website popup window for pet shop -->
+        <div class="overlay" id="overlay-adoptopia">
+          <div class="popup" id="popup-adoptopia">
+            <span><p style="font-weight: 600;">Website : <a style="text-decoration: none; color: #4a53d7;" href="https://google.com" target="_blank"">Put link here</a></p></span>
+            <span class="close-btn" id="close-btn-adoptopia">&times;</span>
+            <iframe src="https://google.com" frameborder="0"></iframe>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="/asset/illuminateminions-logo.png" alt="illuminateminions-logo">
+          <div class="container-card">
+            <h4>Illuminate Minions</h4>
+            <p>Welcome to Illuminate Minions Airlines, where whimsy meets world-class aviation! Experience our unique blend of efficiency and excitement for a truly memorable journey.</p>
+          </div>
+          <div class="card-button">
+            <a><button id="open-btn-minion">View Website</button></a>
+          </div>
+        </div>
+        <!-- website popup window for pet shop -->
+        <div class="overlay" id="overlay-minion">
+          <div class="popup" id="popup-minion">
+            <span><p style="font-weight: 600;">Website : <a style="text-decoration: none; color: #4a53d7;" href="https://illuminate-minions.bitbucket.io" target="_blank"">https://illuminate-minions.bitbucket.io</a></p></span>
+            <span class="close-btn" id="close-btn-minion">&times;</span>
+            <iframe src="https://illuminate-minions.bitbucket.io" frameborder="0"></iframe>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/asset/kairos-white-square.png" alt="kairos-logo">
+          <div class="container-card">
+            <h4>Kairos</h4>
+            <p>Discover a new era in airport navigation with KAIROS, where innovation meets seamless travel experiences.</p>
+          </div>
+          <div class="card-button">
+            <a><button id="open-btn-kairos">View Website</button></a>
+          </div>
+        </div>
+        <!-- website popup window for pet shop -->
+        <div class="overlay" id="overlay-kairos">
+          <div class="popup" id="popup-kairos">
+            <span><p style="font-weight: 600;">Website : <a style="text-decoration: none; color: #4a53d7;" href="https://kairosqr.bitbucket.io" target="_blank"">https://kairosqr.bitbucket.io</a></p></span>
+            <span class="close-btn" id="close-btn-kairos">&times;</span>
+            <iframe src="https://kairosqr.bitbucket.io" frameborder="0"></iframe>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/asset/lemonnom-logo.png" alt="lemonnom-logo">
+          <div class="container-card">
+            <h4>Lemonnom</h4>
+            <p>Your tech news everyday! <br><br>Tech news that will keep you updated on the world of latest technologies!</p>
+          </div>
+          <div class="card-button">
+            <a><button id="open-btn-lemon">View Website</button></a>
+          </div>
+        </div>
+        <!-- website popup window for pet shop -->
+        <div class="overlay" id="overlay-lemon">
+          <div class="popup" id="popup-lemon">
+            <span><p style="font-weight: 600;">Website : <a style="text-decoration: none; color: #4a53d7;" href="https://lemonnom.wordpress.com" target="_blank"">https://lemonnom.wordpress.com</a></p></span>
+            <span class="close-btn" id="close-btn-lemon">&times;</span>
+            <iframe src="https://lemonnom.wordpress.com" frameborder="0"></iframe>
+          </div>
+        </div>
+
+        <!-- ------ -->
+        <!-- add more cards here -->
+        <!-- ------ -->
+      </div>
+    </div>
+    <script src="/js/popup.js"></script>
+</body>
+
+<footer>
+    <div class="container-footer">
+      <hr class="footer-line">
+      <div class="container-footer_box">
+        <div class="row">
+          <div class="left">
+            <ul>
+              <li><a href="https://www.facebook.com/ohmnom8" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="https://www.twitter.com/Ohmnom_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/ohmnomnom_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/jazper-garcia-b436b7167/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.github.com/ExploreWithJaz" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="certification.html">Certification</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+  
+      <hr class="footer-line">
+  
+      <div class="copyright">
+        <p>&copy; 2023 Jazper Garcia. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</html>
